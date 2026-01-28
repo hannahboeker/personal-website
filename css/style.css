@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Flavors&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  cursor: url("../image/Kase.png"), auto;
+}
+
+body:active {
+  cursor: url("../image/Tomate.png") 30 16, auto; }
+
+.flavors-regular {
+  font-family: "Flavors", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box1 {
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 40px #0400ff);
+  width: 200px;
+  height: 200px;
+}
+
+.box2 {
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 40px #ff0000);
+  width: 500px;
+  height: 200px;
+}
+
+.box3 {
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 40px #3cff00);
+  width: 70px;
+  height: 200px;
+}
+
+.box4 {
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 40px #45208e);
+  width: 140px;
+  height: 200px;
+}
+.box5 {
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 40px #ff00aa);
+  width: 300px;
+  height: 200px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20vw;
+  margin-top: -60px;
+  text-align: center;
+}
+
+.article1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 400px;
+  background-color: #3cff00;
+  margin-top: -55px;
+}
+
+.article2 {
+  display: flex;
+}
+h2 {
+  padding: 10px;
+  font-size: 100pt;
+  margin-top: -40px;
+  text-align: center;
+  background-color: #ff0000;
+}
+p {
+  padding: 10px;
+  max-width: 400px;
+  margin-top: -13px;
+}
+
+.bild3 {
+  background-color: violet;
+  width: 100%;
+  height: 100%;
+}
+
+.zahlen {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Flavors", cursive;
+  font-size: 80pt;
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 40px #0400ff);
+  height: 150px;
+}
+
+p2 {
+  font-size: 80pt;
+}
